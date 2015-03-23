@@ -40,7 +40,7 @@ body {
   margin: 0 10px;
 }
 
-.login ul li a {
+.login ul li a{
   margin: 5% 0;
   text-decoration: none;
   padding: 0 1%;
@@ -52,8 +52,9 @@ body {
 }
 /****************************************** I HATE THIS BACKGROUND SECTION */
 #newbg{
-  margin:0;
+  margin:0.2% 0;
   float: right;
+  font-family: "Rokkitt",serif,arial;
 }
 
 /****************************************      HEADER         */
@@ -79,7 +80,7 @@ body {
   margin-top: 0;
 }
 
-a, .email {
+a, .email{
   color: white;
   text-decoration: none;
   font-family: 'Amatic SC', cursive;
@@ -90,7 +91,7 @@ a:hover  {
   color:#70FF83;
   text-decoration: underline;
 }
-.email:hover, .login ul li a:hover{
+.email:hover, .login ul li a:hover, #newbg:hover{
   color:#ff550d;
   text-decoration: underline;
 }
@@ -177,7 +178,7 @@ ul li a {
 
 
 /*****************************************    FOOTER        */
-#footer, .login ul li a {
+#footer, .login ul li a, #newbg {
   color: /*#b80000; */#70FF83;
   font-family: "Economica";
   font-weight: 400;
